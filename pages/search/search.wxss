@@ -1,0 +1,55 @@
+/* pages/search/search.wxss */
+.header{
+  display: flex;
+  height: 110rpx;
+  background: #33bbd5;
+}
+.header input{
+  padding-left: 20rpx;
+  flex: 5;
+  height: 80rpx;
+  margin:15rpx 0 15rpx 10rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
+.header text{
+  flex: 1;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin:15rpx 0;
+  color: #fff;
+}
+.box{
+  position: absolute;
+  top: 110rpx;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(243, 243, 243);
+}
+.info{
+  padding-left: 20rpx;
+  margin-bottom: 20rpx;
+  background:#fff;
+}
+.address{
+  display: flex;
+  height: 80rpx;
+  color: #ff9700;
+  line-height: 80rpx;
+}
+.address text:nth-child(1){
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.address text:nth-child(2){
+  margin-left:20rpx; 
+  margin-right:20rpx; 
+}
+.message{
+  font-size: 40rpx;
+  padding-bottom: 20rpx;
+}

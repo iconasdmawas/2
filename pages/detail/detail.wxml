@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<view class='container'>
+  <view class="row" wx:for="{{arr}}" wx:key="{{item.id}}">
+    <view>{{item.address}}</view>
+     <view class='img'>
+     <image src="{{item.type==='buy'?'/resources/buy.png':'/resources/sell.png'}}"/>
+     <text>{{item.type==="buy"?"求购":"转让"}}</text>
+     </view>
+     <view>{{item.message}}</view>
+     <view>联系电话：{{item.contact}}</view>
+  </view>
+</view>

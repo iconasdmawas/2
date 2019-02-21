@@ -1,0 +1,10 @@
+<view class='header'>
+<input bindinput='content' />
+<text bindtap='search'>搜索</text>
+</view>
+<view class='box'>
+  <view wx:for="{{arr}}" wx:key="{{item.id}}" id='{{item.id}}' class='info' bindtap='go'>
+    <view class='address'> <text>{{item.address}}</text>  <text>({{item.type==="buy"?"求购":"转让"}})</text></view>
+    <view class='message'> {{item.message}}</view>
+  </view>
+</view>

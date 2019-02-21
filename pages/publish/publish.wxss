@@ -1,0 +1,28 @@
+/* pages/publish/publish.wxss */
+.publish{
+  background: #eee;
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  top:0;
+}
+.row{
+  width:100%;
+   display: flex;
+  line-height: 130rpx;
+  border-bottom:1px solid #ccc;
+  background: white
+}
+.row label{
+  width:240rpx;
+  text-align: center;
+}
+.row input{
+  height: 130rpx;
+}
+.submit{
+   margin:10rpx 25rpx 10rpx;
+   background:#ff9700;
+   color:#fff;
+}

@@ -1,0 +1,27 @@
+/* pages/detail/detail.wxss */
+.container{
+  background:  rgb(243, 243, 243);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.container>view>view{
+  padding: 20rpx;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.img{
+  line-height: 80rpx;
+  height: 80rpx;
+}
+.img image{
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle;
+}
+.img text{
+  vertical-align: middle;
+  margin-left: 30rpx;
+}
