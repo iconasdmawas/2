@@ -1,0 +1,49 @@
+{
+  "list": [
+    {
+      "type": "buy",
+      "longitude": 106.5114,
+      "latitude": 29.50207,
+      "address": "重庆市九龙坡区杨家坪",
+      "message": "asdasd",
+      "contact": "aaaaa11",
+      "id": 1
+    },
+    {
+      "type": "buy",
+      "longitude": 106.512405,
+      "latitude": 29.500588,
+      "address": "重庆市九龙坡区西郊三村2号凯德广场",
+      "message": "wq",
+      "contact": "adasd",
+      "id": 2
+    },
+    {
+      "type": "buy",
+      "message": "dsadas",
+      "contact": "sadsa",
+      "longitude": 106.5114,
+      "latitude": 29.50207,
+      "address": "重庆市九龙坡区杨家坪",
+      "id": 3
+    },
+    {
+      "type": "buy",
+      "message": "dsadas",
+      "contact": "sadsa",
+      "longitude": 106.5114,
+      "latitude": 29.50207,
+      "address": "重庆市九龙坡区杨家坪",
+      "id": 4
+    },
+    {
+      "type": "buy",
+      "longitude": 106.50627,
+      "latitude": 29.5039,
+      "address": "重庆市九龙坡区西郊一村1号(近西郊支路)",
+      "message": "123",
+      "contact": "123123123",
+      "id": 5
+    }
+  ]
+}
